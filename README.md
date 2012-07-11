@@ -11,6 +11,8 @@ use variant of push notifications on web applications.
 
 It has been tested in production with moderate usage over extensive periods of time
 
+Also included is ngnix configuration file, modified so it can serve as proxy for websocket protocol, note: ngnix must be built with tcp_proxy module
+
 TODO::
 
 Test multiple connections and updates 
